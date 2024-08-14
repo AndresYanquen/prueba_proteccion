@@ -1,12 +1,24 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To install libraries for the frontend project:
+
+### `npm i`
+
+for the backend project
+
+### `cd server`
+### `npm i`
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the frontend project
 
-### `npm start`
+### `npm run start`
+
+To run the backend project
+
+### `cd server`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
