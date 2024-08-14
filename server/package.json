@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "cpx 'server/index.js' dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "express": "^4.19.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
   }
 }
